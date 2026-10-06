@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Balance pet">
+  <rect width="64" height="64" rx="14" fill="#1b3f8f"/>
+  <path d="M12 40c0-11 9-20 20-20s20 9 20 20z" fill="#dfe6f5"/>
+  <rect x="14" y="26" width="36" height="20" rx="3" fill="#0b0b0c" stroke="#8ea6d8" stroke-width="2"/>
+  <text x="32" y="41" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#c8ffd4">28.60</text>
+  <path d="M20 46h24" stroke="#8ea6d8" stroke-width="2" stroke-linecap="round"/>
+</svg>

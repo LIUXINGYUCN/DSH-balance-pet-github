@@ -1,0 +1,54 @@
+{
+  "name": "@local/dsh-balance-pet",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "DSH balance pet: an in-page companion holding a tablet that shows the live DeepSeek balance. She flashes red on every 0.01 CNY spent and drops a rice bowl on a top-up. A Harness port of VKmich16's desktop widget (https://github.com/VKmich16/VK-1).",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "cordis",
+    "harness",
+    "deepseek",
+    "balance",
+    "widget",
+    "desktop-pet",
+    "port"
+  ],
+  "license": "MIT",
+  "author": "Harness plugin port written by an AI coding assistant; original desktop widget and artwork by VKmich16 (https://github.com/VKmich16/VK-1)",
+  "contributors": [
+    "VKmich16 (original widget, artwork and sounds)"
+  ],
+  "homepage": "https://github.com/VKmich16/VK-1",
+  "engines": {
+    "node": ">=20"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "assets/*",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "icon": "./icon.svg",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-slots"
+      ]
+    }
+  }
+}

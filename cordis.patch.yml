@@ -1,0 +1,4 @@
+- insert:
+    - id: dsh-balance-pet
+      name: '@local/dsh-balance-pet'
+      config: {}

@@ -1,0 +1,57 @@
+MIT License
+
+Copyright (c) 2026 dsh-balance-pet contributors (the Harness plugin port only)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## Third-party notice — read this before redistributing
+
+This repository is **not an original work**. It is a port/adaptation of someone
+else's project, and the split is:
+
+| Part | Who made it | Licence |
+| --- | --- | --- |
+| `index.js`, `client.js`, `package.json`, `cordis.patch.yml`, `tools/`, `test/`, this documentation | written for this repository by an **AI coding assistant** | MIT (above) |
+| Everything under `assets/` — the sprite, the four expression sheets, `rice.png`, `iron_bowl.webp`, `hit.mp3`, `feed.mp3` | the **original author, VKmich16** | © VKmich16, not MIT |
+| Everything under `reference/` — the original desktop widget's scripts and manuals | the **original author, VKmich16** | © VKmich16, not MIT |
+
+`assets/flash.png` is the one asset generated here: it is a flat red silhouette
+derived from the original sprite by `tools/make_flash.ps1`.
+
+The original work:
+
+- Author: **VKmich16**
+- GitHub: <https://github.com/VKmich16/VK-1>
+- Bilibili: **VKmich16**
+  (<https://www.bilibili.com/video/BV1cYa56fEyR/>,
+  <https://www.bilibili.com/video/BV1ZjHi6XEAp/>)
+- What it is: the Windows desktop widget "DSH 余额宠物" (PowerShell + WinForms +
+  GDI+), whose behaviour this plugin reproduces inside DeepSeek Harness.
+
+So: **the code here is the AI port; the idea and the artwork are VKmich16's.**
+Keep both credits when you pass this on.
+
+If you do not have the right to redistribute the assets or the original scripts,
+delete `assets/` and `reference/` before publishing and supply your own artwork —
+the plugin code itself does not depend on their content, only on the file names
+and the size relationships documented in `client.js`.
+
+

@@ -1,0 +1,19 @@
+# Binary assets (images, audio) must not be mangled by line-ending conversion or
+# GitHub's language detection.
+*.png binary
+*.webp binary
+*.jpg binary
+*.mp3 binary
+*.pdf binary
+
+# Text files keep their own line endings.
+*.js text eol=lf
+*.cjs text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.md text eol=lf
+
+# Keep the diffs readable on GitHub and keep vendored assets out of the language
+# statistics.
+reference/* linguist-vendored
+assets/* linguist-documentation

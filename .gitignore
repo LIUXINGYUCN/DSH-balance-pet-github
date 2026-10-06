@@ -1,0 +1,20 @@
+# Ignore the API key: the plugin reads `apikey.txt` from its own directory, and
+# it must never be committed. Anyone cloning the repo supplies their own key.
+apikey.txt
+
+# Node
+node_modules/
+npm-debug.log*
+pnpm-debug.log*
+yarn-error.log*
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Scratch output from the tools in tools/
+tools/iron_bowl.png
+tools/*-preview.png
